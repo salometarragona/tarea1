@@ -1,0 +1,31 @@
+/*Color primario:
+#8123de. 
+Color secundario:
+#99ff00
+Color terciario: #46543a */
+
+.milanesa{
+    color:blueviolet;
+    background-color:black;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h1{
+    background-color: rgb(148, 185, 223);
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.ul,.li1,.li2,.li3{
+
+    color: #8123de;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mario{
+    color: blue;
+}
+
+
