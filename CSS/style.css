@@ -5,10 +5,11 @@ Color secundario:
 Color terciario: #46543a */
 
 .milanesa{
-    color:blueviolet;
+    color:white;
     background-color:black;
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url("../Imagenes/lenguaje-min.jpg")
 }
 
 .h1{
@@ -22,10 +23,39 @@ Color terciario: #46543a */
     color: #8123de;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
 }
 
-.mario{
-    color: blue;
+.mario,.bros,.nintendo{
+
+    background-color: aquamarine;
+    width: 50%;
+   
+    
 }
-
-
+.contenedor1 {
+    background-color: red;
+    width: 50%;
+    height: 90vh;
+    margin: auto;
+    padding: 1em
+}
+.contenedor2 {
+    background-color: green;
+    width: 40%;
+    height: 80vh;
+    padding: 1em
+   
+}
+.contenedor3 {
+    background-color: pink;
+    width: 30%;
+    height: 70vh;
+    padding: 1em
+}
+.contenedor4 {
+    background-color: blue;
+    width: 20%;
+    height: 60vh;
+    padding: 1em
+}
