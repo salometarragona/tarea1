@@ -30,7 +30,7 @@ Color terciario: #46543a */
 
     background-color: aquamarine;
     width: 50%;
-   
+    ;
     
 }
 .contenedor1 {
@@ -38,7 +38,7 @@ Color terciario: #46543a */
     width: 50%;
     height: 90vh;
     margin: auto;
-    padding: 1em
+    padding: 1em ;
 }
 .contenedor2 {
     background-color: green;
@@ -58,4 +58,46 @@ Color terciario: #46543a */
     width: 20%;
     height: 60vh;
     padding: 1em
+}
+
+.ulpadre{ 
+    list-style-type: none;
+    padding: 0%;
+    border:1px solid black;
+    display: flex;
+    flex-direction:row
+}
+
+.ulpadre li{
+    border: 1px solid salmon;
+    padding: 5px
+}
+.li1{
+    background-color: palevioletred;
+    color: white;
+    flex-grow: 50%;
+}
+.li2{
+    background-color: royalblue;
+    color: white;
+    flex-basis: 50%; 
+}
+.li3{
+    background-color:red;
+    color: white;
+    flex-basis: 50%
+}
+.pie{
+    background-color:lightyellow;
+    color: darkolivegreen;
+    padding-top: 3em;
+    display: flex
+}
+
+@media (min-width: 767px){
+.elementopadre{
+    display: flex;
+    flex-direction:row;
+    background-color: aqua;
+}
 }
