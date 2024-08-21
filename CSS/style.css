@@ -30,14 +30,14 @@ Color terciario: #46543a */
 
     background-color: aquamarine;
     width: 50%;
-    ;
+    display: flex
     
 }
 .contenedor1 {
     background-color: red;
     width: 50%;
     height: 90vh;
-    margin: auto;
+    margin-top: 5%;
     padding: 1em ;
 }
 .contenedor2 {
@@ -100,4 +100,48 @@ Color terciario: #46543a */
     flex-direction:row;
     background-color: aqua;
 }
+}
+.cardconteiner{
+    display: grid;
+    gap: 10px;
+}
+.card{
+    background-color: blue;
+    padding: 2px;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.cardtitle{
+    display: flex;
+    justify-content: center;
+  
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 992px){
+    .cardconteiner{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        display: grid;
+    }
+    .titulito{
+        display: grid
+        
+    }
+}
+.imagen{
+    width: 100px;
+    height: 100px;
+   align-items: center;
+}
+.titulito{
+    background-color: blue;
+    padding: 2px;
+    border: 10px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
 }
